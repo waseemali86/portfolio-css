@@ -1,0 +1,121 @@
+/* About.module.css */
+
+/* Base styles */
+.about-section {
+    background-color: #e2e8f0; /* Slate 200 equivalent */
+    text-align: center;
+    padding: 2.5rem 0;
+  }
+  
+  .about-title {
+    font-size: 2.25rem; /* 4xl */
+    font-weight: bold;
+    padding-top: 1.5rem;
+    color: #f97316; /* Orange 500 */
+    transition: color 0.3s ease;
+  }
+  
+  .about-title:hover {
+    color: black;
+  }
+  
+  .about-description {
+    padding: 1rem 3rem;
+    font-size: 1.25rem; /* xl */
+  }
+  
+  /* Card container */
+  .about-card {
+    background-color: white;
+    border-radius: 0.5rem;
+    margin: 2rem 2rem;
+    padding: 2rem;
+    text-align: left;
+    transition: all 0.3s ease;
+  }
+  
+  .about-card:hover {
+    background-color: #f97316; /* Orange 500 */
+    border-radius: 1.5rem;
+  }
+  
+  /* Skills section */
+  .skills-title {
+    font-size: 2.25rem; /* 4xl */
+    font-weight: bold;
+    padding-top: 2rem;
+    color: #f97316;
+    transition: color 0.3s ease;
+  }
+  
+  .skills-title:hover {
+    color: black;
+  }
+  
+  .skills-grid {
+    display: grid;
+    gap: 1.5rem;
+    margin: 3rem 2.5rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  @media (min-width: 768px) {
+    .skills-grid {
+      grid-template-columns: repeat(4, 1fr);
+      margin: 3rem 3rem;
+    }
+  }
+  
+  .skill-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 0.5rem;
+    height: 10rem;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .skill-card:hover {
+    background-color: #f97316; /* Orange 500 */
+    border-radius: 1.5rem;
+  }
+  
+  .skill-icon {
+    width: 3.5rem;
+  }
+  
+  .skill-title {
+    font-size: 1.25rem; /* xl */
+    font-weight: bold;
+    padding-top: 1rem;
+  }
+  
+  /* Work philosophy section */
+  .philosophy-card {
+    background-color: white;
+    border-radius: 0.5rem;
+    margin: 3rem 2rem;
+    padding: 3rem 2rem;
+    text-align: left;
+    transition: all 0.3s ease;
+  }
+  
+  .philosophy-card:hover {
+    background-color: #f97316; /* Orange 500 */
+    border-radius: 1.5rem;
+  }
+  
+  .philosophy-title {
+    font-size: 2.25rem; /* 4xl */
+    font-weight: bold;
+    padding: 0 2rem 1.5rem;
+  }
+  
+  .philosophy-description {
+    font-size: 1.25rem; /* xl */
+    padding: 0 2rem;
+  }
+  

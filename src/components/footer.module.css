@@ -1,0 +1,74 @@
+/* Footer.module.css */
+.footer-container {
+    max-width: 1200px;
+    background-color: #e2e8f0; /* Slate-200 */
+    padding-top: 2rem;
+    user-select: none;
+  }
+  
+  .footer-content {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 1rem;
+    font-size: 1.125rem;
+  }
+  
+  .footer-title {
+    text-align: center;
+    font-size: 1.875rem;
+    font-weight: bold;
+    padding-top: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-title:hover {
+    color: #f97316; /* Orange-500 */
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+    padding-top: 0.5rem;
+  }
+  
+  .social-icon {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    transition: width 0.3s, height 0.3s;
+  }
+  
+  .social-icon:hover {
+    width: 2.25rem;
+    height: 2.25rem;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 4rem 1.5rem;
+    display: none;
+  }
+  
+  .footer-links div {
+    padding-top: 1.5rem;
+  }
+  
+  .footer-links div p {
+    font-weight: 600;
+    padding-bottom: 1rem;
+  }
+  
+  .footer-links div p:hover {
+    color: #f97316; /* Orange-500 */
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    font-size: 1.125rem;
+    padding: 1rem 0;
+  }
+  

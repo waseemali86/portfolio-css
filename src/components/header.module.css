@@ -1,0 +1,130 @@
+/* Navbar styles */
+.navbar {
+    width: 100%;
+    height: 56px;
+    background-color: #f1f5f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  /* Brand styles */
+  .brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f97316;
+    transition: color 0.3s ease;
+  }
+  
+  .brand:hover {
+    color: #171717; /* Hover effect */
+  }
+  
+  /* Desktop navigation links */
+  .navLinks {
+    display: none;
+  }
+  
+  @media (min-width: 768px) {
+    .navLinks {
+      display: flex;
+      gap: 48px;
+    }
+  }
+  
+  .navItem {
+    font-size: 1rem;
+    color: #f97316;
+    transition: color 0.3s ease, font-size 0.3s ease;
+    text-decoration: none;
+  }
+  
+  .navItem:hover {
+    color: #171717;
+    font-size: 1.125rem;
+  }
+  
+  /* Connect button */
+  .connectButtonWrapper {
+    display: none;
+  }
+  
+  @media (min-width: 768px) {
+    .connectButtonWrapper {
+      display: flex;
+    }
+  }
+  
+  .connectButton {
+    background-color: #f97316;
+    color: #ffffff;
+    border-radius: 9999px;
+    padding: 8px 20px;
+    font-size: 0.875rem;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .connectButton:hover {
+    background-color: #171717;
+  }
+  
+  /* Mobile menu styles */
+  .mobileMenu {
+    display: block;
+    color: #f97316;
+  }
+  
+  @media (min-width: 768px) {
+    .mobileMenu {
+      display: none;
+    }
+  }
+  
+  /* Sheet styles */
+  .sheetTitle {
+    font-size: 2.5rem;
+    padding: 40px 0;
+    background-color: #e2e8f0;
+    text-align: center;
+    border-radius: 12px;
+    color: #f97316;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  .sheetTitle:hover {
+    color: #171717;
+  }
+  
+  /* Mobile menu links */
+  .mobileLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 1.875rem;
+    background-color: #e2e8f0;
+    padding: 24px 0;
+    border-radius: 12px;
+  }
+  
+  .mobileLink {
+    background-color: #e2e8f0;
+    color: #f97316;
+    padding: 12px 0;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease, border-radius 0.3s ease;
+  }
+  
+  .mobileLink:hover {
+    background-color: #171717;
+    color: #ffffff;
+    border-radius: 12px;
+  }
+  

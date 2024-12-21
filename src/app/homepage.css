@@ -1,0 +1,198 @@
+/* Homepage.css */
+.homepage-main {
+    background-color: #f1f5f9;
+    cursor: pointer;
+  }
+  
+  .hero-section {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    padding: 2rem 0.5rem;
+    background-color: white;
+  }
+  
+  .hero-content {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .hero-title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .hero-title .highlight {
+    color: black;
+  }
+  
+  .hero-title .name {
+    color: #f97316;
+  }
+  
+  .hero-title .role,
+  .hero-title .developer {
+    color: #f97316;
+    display: inline;
+  }
+  
+  .hero-description {
+    width: 24rem;
+    margin: 1rem auto 0;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.65);
+  }
+  
+  .hero-buttons .btn {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .hire-btn {
+    background-color: #f97316;
+    color: black;
+  }
+  
+  .hire-btn:hover {
+    background-color: #171717;
+    color: white;
+  }
+  
+  .cv-btn {
+    background-color: #e2e8f0;
+    color: black;
+  }
+  
+  .cv-btn:hover {
+    background-color: #171717;
+    color: white;
+  }
+  
+  .hero-image {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hero-image .mobile-image {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+  }
+  
+  .hero-image .desktop-image {
+    display: none;
+  }
+  
+  .services-section {
+    margin-top: 3rem;
+    text-align: center;
+  }
+  
+  .services-title {
+    font-size: 2rem;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .services-title:hover {
+    color: #f97316;
+  }
+  
+  .services-description {
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.65);
+    margin: 0.5rem auto;
+    padding: 0 2rem;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    gap: 1.5rem;
+    padding: 1rem 0.5rem;
+  }
+  
+  .service-card {
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+    padding: 1.5rem;
+    transition: transform 0.3s ease-in-out, border-radius 0.3s ease-in-out;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+    background-color: #f97316;
+    border-radius: 16px;
+  }
+  
+  .service-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
+  .service-description {
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+    color: rgba(0, 0, 0, 0.75);
+  }
+
+  /* Main container for the hero section */
+.hero-section {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #f8f9fa;
+  }
+  
+  @media (min-width: 768px) {
+    .hero-section {
+      flex-direction: row; /* Text left, image right on larger screens */
+      justify-content: space-between;
+      height: 100vh;
+    }
+  }
+  
+  /* Left side (Text Content) */
+  .hero-content {
+    text-align: center;
+    max-width: 600px;
+    padding: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .hero-content {
+      text-align: left; /* Align text to the left on desktop */
+      padding-left: 3rem;
+    }
+  }
+  
+  /* Right side (Image) */
+  .hero-image {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* Rounded profile image for better visuals */
+  }
+  
+  @media (min-width: 768px) {
+    .hero-image {
+      margin-top: 0;
+      padding-right: 3rem;
+    }
+  }
+  
+  
