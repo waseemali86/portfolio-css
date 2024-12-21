@@ -1,5 +1,5 @@
 // Homepage.js
-import "@/app/homepage"; // Importing the custom CSS file
+import "./homepage.css"; // Importing the custom CSS file
 import Image from "next/image";
 import Project from "@/app/projects/page";
 import Contact from "@/app/contact/page";
